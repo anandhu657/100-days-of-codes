@@ -1,0 +1,92 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+p, li, a{
+    font-size: 14px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.outer-div{
+    margin-top: 5%;
+}
+.row{
+    width: 75%;
+    margin: auto;   
+    padding: 20px;
+    /* border: 1px solid gray; */
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;   
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.image-div{
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.fig-caption{
+    background-color: gray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.fig-caption p{
+    text-align: center;
+}
+
+.list-heading h3{
+    text-align: left;
+}
+
+ul{
+    padding: 10px 0 10px 40px;
+}
+
+ul li{
+    line-height: 1.4;
+}
+
+ul li strong{
+    font-weight: 700;
+}
+
+.more p, .footer p{
+    text-align: center;
+}
+
+.more p a, .footer p{
+    font-style: italic;
+}
