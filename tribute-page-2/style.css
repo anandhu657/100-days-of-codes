@@ -1,0 +1,106 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+}
+
+#header{
+    width: 60%;
+    height: auto;
+    margin: 80px auto 20px auto;
+}
+
+#header img{
+    width: 100%;
+}
+
+.header-content{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight:800;
+    padding: 30px;
+}
+
+.section{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.section-1{
+    width: 60%;
+}
+
+.section-1 h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+
+.table-div tr{
+    font-size: 13px;
+}
+
+.table-div tr th{
+    width: 15%;
+    padding: 0 10px;
+    border-bottom: 2px solid gray;
+}
+
+.table-div tr td{
+    line-height: 1.5;
+    padding: 8px 0;
+    border-bottom: 2px solid gray;
+}
+
+.table-div table{
+    border-top: 2px solid gray;
+}
+
+.section-2{
+    width: 30%;
+    margin: 100px auto auto;
+}
+
+.section-2 h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.section-2 img{
+    width: 100%;
+}
+
+.section-2 .table-div td{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    margin: 100px;
+}
+
+.footer p{
+    padding: 0 140px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer h1{
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-style: italic;
+}
