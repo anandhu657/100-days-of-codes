@@ -47,9 +47,12 @@ form input{
 
 form input[type="submit"]{
     background-color: #ff0000;
-    display: block;
-    margin: auto;
     padding: 10px;
     color: #fff;
     cursor: pointer;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
 }

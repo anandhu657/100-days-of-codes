@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #a9d7e9;
+    padding: 10px;
+}
+
+.header h1{
+    font-size: 3rem;
+}
+
+.content{
+    width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+}
+
+.content p{
+    font-size: 1.3rem;
+}
+
+.frames{
+    position: sticky;
+    display: block;
+}
+
+.labels{
+    width: 40%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.fields{
+    width: 48%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.input-field{
+    width: 280px;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.selection{
+    width: 140px;
+    height: 35px;
+    padding: 5px;
+    margin: 15px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.radio, .checkbox{
+    list-style-type: none;
+}
+
+.radio li, .checkbox li{
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.radio input, .checkbox input{
+    float: left;
+    margin-left: 5px;
+}
+
+.submit input{
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #1684af;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
